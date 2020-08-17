@@ -1,0 +1,3756 @@
+Applying MaxDegreeHeuristic, FVS obtained: 3, 6, 9, 18, 21, 30, 
+
+0 iteration, F_Vertices: 3 6 9 18 21 30 
+Try Removing 5
+Try Removing 8
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Adding 4 to V2
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+Try Removing 20
+Adding 20 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 20 to V1
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+Try Removing 31
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 20 to V2
+Removing 16
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Adding 8 to V2
+Removing 7
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 4 to V2
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Discarding 19
+ByPassing 20
+Try Removing 31
+Adding 31 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 31 to V1
+ReturnByPassed( 20, 31, 21 )
+Returning 19
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+Try Removing 31
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 20 to V2
+Removing 16
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Returning 7
+Returning 8 to V1
+Adding 5 to V2
+Try Removing 4
+Try Removing 8
+Try Removing 11
+Discarding 0
+Discarding 1
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+Try Removing 20
+Adding 20 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 20 to V1
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 1
+Returning 0
+Adding 11 to V2
+Removing 10
+Try Removing 31
+Discarding 0
+Discarding 1
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 1
+Returning 0
+Adding 31 to V2
+Try Removing 20
+Discarding 0
+Discarding 1
+ByPassing 7
+Removing 19
+Returning 19
+ReturnByPassed( 7, 19, 6 )
+Returning 1
+Returning 0
+Adding 20 to V2
+Removing 16
+Discarding 0
+Discarding 1
+ByPassing 7
+Removing 19
+Returning 19
+ReturnByPassed( 7, 19, 6 )
+Returning 1
+Returning 0
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Adding 8 to V2
+Removing 7
+Removing 11
+Discarding 0
+Discarding 1
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Discarding 19
+ByPassing 20
+Try Removing 31
+Adding 31 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 31 to V1
+ReturnByPassed( 20, 31, 21 )
+Returning 19
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 1
+Returning 0
+Returning 11
+Returning 7
+Returning 8 to V1
+Adding 4 to V2
+Removing 8
+Removing 11
+ByPassing 0
+ByPassing 1
+Removing 2
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+Try Removing 20
+Adding 20 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 20 to V1
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 2
+ReturnByPassed( 1, 2, 4 )
+ReturnByPassed( 0, 1, 4 )
+Returning 11
+Returning 8
+Returning 4 to V1
+Returning 5 to V1
+No Solution
+
+
+1 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 3
+Try Removing 8
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Try Removing 5
+ByPassing 7
+ByPassing 10
+Removing 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+ReturnByPassed( 7, 19, 6 )
+Adding 5 to V2
+ByPassing 7
+ByPassing 10
+Removing 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+Try Removing 20
+Adding 20 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 20 to V1
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+ReturnByPassed( 7, 19, 6 )
+Returning 5 to V1
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Adding 8 to V2
+Removing 7
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Removing 5
+ByPassing 10
+Removing 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+Returning 5
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Returning 7
+Returning 8 to V1
+No Solution
+
+
+2 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 6
+Try Removing 8
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+Discarding 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 7
+Adding 4 to V2
+Removing 5
+Discarding 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 7
+Returning 5
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+Try Removing 31
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 20 to V2
+Removing 16
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Adding 8 to V2
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+ByPassing 19
+Removing 31
+Returning 31
+ReturnByPassed( 19, 31, 8 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 8 )
+Adding 4 to V2
+Removing 5
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+ByPassing 19
+Removing 31
+Returning 31
+ReturnByPassed( 19, 31, 8 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 8 )
+Returning 5
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+Try Removing 31
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 8 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 7
+Removing 19
+Returning 19
+ReturnByPassed( 7, 19, 8 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 20 to V2
+Removing 16
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 7
+Removing 19
+Returning 19
+ReturnByPassed( 7, 19, 8 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Returning 8 to V1
+No Solution
+
+
+3 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 6
+Vertex to be removed: 3
+Try Removing 8
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Discarding 7
+ByPassing 10
+Removing 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+Returning 7
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Adding 8 to V2
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+ByPassing 7
+ByPassing 10
+Removing 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+ByPassing 19
+Removing 31
+Returning 31
+ReturnByPassed( 19, 31, 8 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+ReturnByPassed( 7, 19, 8 )
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Returning 8 to V1
+No Solution
+
+
+4 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 9
+Try Removing 5
+Try Removing 8
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 7
+Discarding 10
+ByPassing 11
+Try Removing 31
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 31 to V2
+Try Removing 19
+Try Removing 20
+Adding 20 to V2
+Removing 16
+Returning 16
+Returning 20 to V1
+Adding 19 to V2
+Try Removing 20
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 20 to V2
+Removing 16
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 16
+Returning 20 to V1
+Returning 19 to V1
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 7, 19, 6 )
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 8 to V2
+Removing 7
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Discarding 10
+ByPassing 11
+Try Removing 31
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 20 to V2
+Removing 16
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 7
+Returning 8 to V1
+Adding 5 to V2
+Try Removing 8
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 7
+Discarding 10
+ByPassing 11
+Try Removing 31
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 31 to V2
+Removing 19
+Try Removing 20
+Adding 20 to V2
+Removing 16
+Returning 16
+Returning 20 to V1
+Returning 19
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 7, 19, 6 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 8 to V2
+Removing 7
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Discarding 10
+ByPassing 11
+Try Removing 31
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 13
+ByPassing 14
+Removing 17
+Returning 17
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 20 to V2
+Removing 16
+ByPassing 13
+ByPassing 14
+Removing 17
+Returning 17
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 7
+Returning 8 to V1
+Returning 5 to V1
+No Solution
+
+
+5 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 9
+Vertex to be removed: 3
+Try Removing 8
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+ByPassing 7
+Discarding 10
+Discarding 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+Try Removing 20
+Adding 20 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 20 to V1
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+Returning 10
+ReturnByPassed( 7, 19, 6 )
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Adding 8 to V2
+Removing 7
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+Discarding 10
+Discarding 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Discarding 19
+ByPassing 20
+Try Removing 31
+Adding 31 to V2
+ByPassing 22
+Removing 25
+Returning 25
+ReturnByPassed( 22, 25, 21 )
+Returning 31 to V1
+ReturnByPassed( 20, 31, 21 )
+Returning 19
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+Returning 10
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Returning 7
+Returning 8 to V1
+No Solution
+
+
+6 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 9
+Vertex to be removed: 6
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 4
+Removing 5
+ByPassing 8
+ByPassing 7
+Discarding 10
+ByPassing 11
+Try Removing 31
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 31 to V2
+Try Removing 19
+Try Removing 20
+Adding 20 to V2
+Removing 16
+Returning 16
+Returning 20 to V1
+Adding 19 to V2
+Try Removing 20
+ByPassing 13
+ByPassing 14
+Removing 17
+Returning 17
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Adding 20 to V2
+Removing 16
+ByPassing 13
+ByPassing 14
+Removing 17
+Returning 17
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 16
+Returning 20 to V1
+Returning 19 to V1
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 7, 19, 30 )
+ReturnByPassed( 8, 7, 30 )
+Returning 5
+ReturnByPassed( 4, 5, 3 )
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+No Solution
+
+
+7 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 9
+Vertex to be removed: 6
+Vertex to be removed: 3
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+ByPassing 8
+ByPassing 7
+Discarding 10
+Discarding 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+ByPassing 15
+Try Removing 16
+Adding 16 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+Returning 16 to V1
+ReturnByPassed( 15, 16, 30 )
+Adding 17 to V2
+ByPassing 15
+Removing 16
+ByPassing 19
+Removing 31
+Returning 31
+ReturnByPassed( 19, 31, 30 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+Returning 10
+ReturnByPassed( 7, 19, 30 )
+ReturnByPassed( 8, 7, 30 )
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+No Solution
+
+
+8 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 18
+Try Removing 5
+Try Removing 8
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+Adding 4 to V2
+ByPassing 7
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 10
+Returning 11 to V1
+Adding 8 to V2
+Removing 7
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+Adding 4 to V2
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Discarding 19
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 19
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 10
+Returning 11 to V1
+Returning 7
+Returning 8 to V1
+Adding 5 to V2
+Try Removing 4
+Try Removing 8
+Try Removing 11
+Discarding 0
+Discarding 1
+ByPassing 7
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 1
+Returning 0
+Adding 11 to V2
+Removing 10
+Discarding 0
+Discarding 1
+ByPassing 7
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Try Removing 31
+Adding 31 to V2
+Removing 19
+Returning 19
+Returning 31 to V1
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 1
+Returning 0
+Returning 10
+Returning 11 to V1
+Adding 8 to V2
+Removing 7
+Removing 11
+Discarding 0
+Discarding 1
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Discarding 19
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 19
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 1
+Returning 0
+Returning 11
+Returning 7
+Returning 8 to V1
+Adding 4 to V2
+Removing 8
+Removing 11
+ByPassing 0
+ByPassing 1
+Removing 2
+ByPassing 7
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 2
+ReturnByPassed( 1, 2, 4 )
+ReturnByPassed( 0, 1, 4 )
+Returning 11
+Returning 8
+Returning 4 to V1
+Returning 5 to V1
+No Solution
+
+
+9 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 18
+Vertex to be removed: 3
+Try Removing 8
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Try Removing 5
+ByPassing 7
+ByPassing 10
+Removing 11
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+ReturnByPassed( 7, 19, 6 )
+Adding 5 to V2
+ByPassing 7
+ByPassing 10
+Removing 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+ReturnByPassed( 7, 19, 6 )
+Returning 5 to V1
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Adding 8 to V2
+Removing 7
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Removing 5
+ByPassing 10
+Removing 11
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+Returning 5
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Returning 7
+Returning 8 to V1
+No Solution
+
+
+10 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 18
+Vertex to be removed: 6
+Try Removing 8
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+Adding 4 to V2
+Removing 5
+Returning 5
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 10
+Returning 11 to V1
+Adding 8 to V2
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+ByPassing 7
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+ByPassing 19
+Removing 31
+Returning 31
+ReturnByPassed( 19, 31, 8 )
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 8 )
+Adding 4 to V2
+Removing 5
+ByPassing 7
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+ByPassing 19
+Removing 31
+Returning 31
+ReturnByPassed( 19, 31, 8 )
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 8 )
+Returning 5
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 7
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 8 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 10
+Returning 11 to V1
+Returning 8 to V1
+No Solution
+
+
+11 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 18
+Vertex to be removed: 6
+Vertex to be removed: 3
+Try Removing 8
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Discarding 7
+ByPassing 10
+Removing 11
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+Returning 7
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Adding 8 to V2
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+ByPassing 7
+ByPassing 10
+Removing 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+ByPassing 19
+Removing 31
+Returning 31
+ReturnByPassed( 19, 31, 8 )
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+ReturnByPassed( 7, 19, 8 )
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Returning 8 to V1
+No Solution
+
+
+12 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 18
+Vertex to be removed: 9
+Try Removing 5
+Try Removing 8
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 7
+Discarding 10
+ByPassing 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Try Removing 31
+Adding 31 to V2
+Try Removing 19
+Adding 19 to V2
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 19 to V1
+Returning 31 to V1
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 7, 19, 6 )
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 8 to V2
+Removing 7
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Discarding 10
+ByPassing 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Try Removing 31
+Adding 31 to V2
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 31 to V1
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 7
+Returning 8 to V1
+Adding 5 to V2
+Try Removing 8
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 7
+Discarding 10
+ByPassing 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Try Removing 31
+Adding 31 to V2
+Removing 19
+Returning 19
+Returning 31 to V1
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 7, 19, 6 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 8 to V2
+Removing 7
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Discarding 10
+ByPassing 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 7
+Returning 8 to V1
+Returning 5 to V1
+No Solution
+
+
+13 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 18
+Vertex to be removed: 9
+Vertex to be removed: 3
+Try Removing 8
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+ByPassing 7
+Discarding 10
+Discarding 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+ByPassing 19
+Try Removing 31
+Adding 31 to V2
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 31 to V1
+ReturnByPassed( 19, 31, 6 )
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+Returning 10
+ReturnByPassed( 7, 19, 6 )
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Adding 8 to V2
+Removing 7
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+Discarding 10
+Discarding 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Discarding 19
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 19
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+Returning 10
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Returning 7
+Returning 8 to V1
+No Solution
+
+
+14 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 18
+Vertex to be removed: 9
+Vertex to be removed: 6
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 4
+Removing 5
+ByPassing 8
+ByPassing 7
+Discarding 10
+ByPassing 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Try Removing 31
+Adding 31 to V2
+Removing 19
+Returning 19
+Returning 31 to V1
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 7, 19, 30 )
+ReturnByPassed( 8, 7, 30 )
+Returning 5
+ReturnByPassed( 4, 5, 3 )
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+No Solution
+
+
+15 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 18
+Vertex to be removed: 9
+Vertex to be removed: 6
+Vertex to be removed: 3
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+ByPassing 8
+ByPassing 7
+Discarding 10
+Discarding 11
+ByPassing 13
+ByPassing 14
+ByPassing 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+ByPassing 19
+Removing 31
+Returning 31
+ReturnByPassed( 19, 31, 30 )
+Returning 20 to V1
+ReturnByPassed( 16, 20, 30 )
+ReturnByPassed( 15, 16, 30 )
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+Returning 10
+ReturnByPassed( 7, 19, 30 )
+ReturnByPassed( 8, 7, 30 )
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+No Solution
+
+
+16 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 21
+Try Removing 5
+Try Removing 8
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+Adding 4 to V2
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+Try Removing 31
+Adding 31 to V2
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Adding 8 to V2
+Removing 7
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+Adding 4 to V2
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+Try Removing 31
+Adding 31 to V2
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Returning 7
+Returning 8 to V1
+Adding 5 to V2
+Try Removing 4
+Try Removing 8
+Try Removing 11
+Discarding 0
+Discarding 1
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 1
+Returning 0
+Adding 11 to V2
+Removing 10
+Try Removing 31
+Adding 31 to V2
+Discarding 0
+Discarding 1
+ByPassing 7
+Removing 19
+Returning 19
+ReturnByPassed( 7, 19, 6 )
+Returning 1
+Returning 0
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Adding 8 to V2
+Removing 7
+Removing 11
+Discarding 0
+Discarding 1
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 1
+Returning 0
+Returning 11
+Returning 7
+Returning 8 to V1
+Adding 4 to V2
+Removing 8
+Removing 11
+ByPassing 0
+ByPassing 1
+Removing 2
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 6 )
+Returning 2
+ReturnByPassed( 1, 2, 4 )
+ReturnByPassed( 0, 1, 4 )
+Returning 11
+Returning 8
+Returning 4 to V1
+Returning 5 to V1
+No Solution
+
+
+17 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 21
+Vertex to be removed: 3
+Try Removing 8
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Try Removing 5
+ByPassing 7
+ByPassing 10
+Removing 11
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+ReturnByPassed( 7, 19, 6 )
+Adding 5 to V2
+ByPassing 7
+ByPassing 10
+Removing 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+ReturnByPassed( 7, 19, 6 )
+Returning 5 to V1
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Adding 8 to V2
+Removing 7
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Removing 5
+ByPassing 10
+Removing 11
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+Returning 5
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Returning 7
+Returning 8 to V1
+No Solution
+
+
+18 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 21
+Vertex to be removed: 6
+Try Removing 8
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+Adding 4 to V2
+Removing 5
+Returning 5
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+Try Removing 31
+Adding 31 to V2
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Adding 8 to V2
+Try Removing 11
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Try Removing 4
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 8 )
+Adding 4 to V2
+Removing 5
+ByPassing 7
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+ReturnByPassed( 7, 19, 8 )
+Returning 5
+Returning 4 to V1
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 11 to V2
+Removing 10
+Try Removing 31
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 31 to V2
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 7
+Removing 19
+Returning 19
+ReturnByPassed( 7, 19, 8 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 31 to V1
+Returning 10
+Returning 11 to V1
+Returning 8 to V1
+No Solution
+
+
+19 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 21
+Vertex to be removed: 6
+Vertex to be removed: 3
+Try Removing 8
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Discarding 7
+ByPassing 10
+Removing 11
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+Returning 7
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Adding 8 to V2
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+ByPassing 7
+ByPassing 10
+Removing 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+ReturnByPassed( 10, 11, 9 )
+ReturnByPassed( 7, 19, 8 )
+ReturnByPassed( 4, 5, 9 )
+Returning 0
+Returning 1
+Returning 2
+Returning 8 to V1
+No Solution
+
+
+20 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 21
+Vertex to be removed: 9
+Try Removing 5
+Try Removing 8
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 7
+Discarding 10
+ByPassing 11
+Try Removing 31
+Adding 31 to V2
+Try Removing 19
+Adding 19 to V2
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 19 to V1
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 7, 19, 6 )
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 8 to V2
+Removing 7
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Discarding 10
+ByPassing 11
+Try Removing 31
+Adding 31 to V2
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 7
+Returning 8 to V1
+Adding 5 to V2
+Try Removing 8
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 7
+Discarding 10
+ByPassing 11
+Try Removing 31
+Adding 31 to V2
+Removing 19
+Returning 19
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 7, 19, 6 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 8 to V2
+Removing 7
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Discarding 10
+ByPassing 11
+Try Removing 31
+Adding 31 to V2
+ByPassing 13
+ByPassing 14
+Removing 17
+Returning 17
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 7
+Returning 8 to V1
+Returning 5 to V1
+No Solution
+
+
+21 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 21
+Vertex to be removed: 9
+Vertex to be removed: 3
+Try Removing 8
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+ByPassing 7
+Discarding 10
+Discarding 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+Returning 10
+ReturnByPassed( 7, 19, 6 )
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Adding 8 to V2
+Removing 7
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+Discarding 10
+Discarding 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+Returning 10
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Returning 7
+Returning 8 to V1
+No Solution
+
+
+22 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 21
+Vertex to be removed: 9
+Vertex to be removed: 6
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 4
+Removing 5
+ByPassing 8
+ByPassing 7
+Discarding 10
+ByPassing 11
+Try Removing 31
+Adding 31 to V2
+Try Removing 19
+Adding 19 to V2
+ByPassing 13
+ByPassing 14
+Removing 17
+Returning 17
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 19 to V1
+Returning 31 to V1
+ReturnByPassed( 11, 31, 3 )
+Returning 10
+ReturnByPassed( 7, 19, 30 )
+ReturnByPassed( 8, 7, 30 )
+Returning 5
+ReturnByPassed( 4, 5, 3 )
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+No Solution
+
+
+23 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 21
+Vertex to be removed: 9
+Vertex to be removed: 6
+Vertex to be removed: 3
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+ByPassing 8
+ByPassing 7
+Discarding 10
+Discarding 11
+ByPassing 13
+ByPassing 14
+Try Removing 17
+Adding 17 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 17 to V1
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 11
+Returning 10
+ReturnByPassed( 7, 19, 30 )
+ReturnByPassed( 8, 7, 30 )
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+No Solution
+
+
+24 iteration, F_Vertices: 3 6 9 18 21 30 
+Vertex to be removed: 21
+Vertex to be removed: 18
+Try Removing 5
+Try Removing 8
+Try Removing 11
+Solution exists
+5, 8, 11, 18, 21, 
+
+0 iteration, F_Vertices: 5 8 11 18 21 
+Try Removing 3
+Try Removing 6
+Try Removing 9
+Try Removing 31
+Adding 31 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 16
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Adding 9 to V2
+Try Removing 4
+Removing 10
+Returning 10
+Adding 4 to V2
+Removing 10
+Try Removing 31
+Adding 31 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 16
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 10
+Returning 4 to V1
+Returning 9 to V1
+Adding 6 to V2
+Removing 7
+Try Removing 9
+Try Removing 31
+Adding 31 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 16
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Adding 9 to V2
+Removing 4
+Removing 10
+Returning 10
+Returning 4
+Returning 9 to V1
+Returning 7
+Returning 6 to V1
+Adding 3 to V2
+Try Removing 6
+Try Removing 9
+Try Removing 31
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 20 to V2
+Removing 16
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Adding 9 to V2
+Removing 4
+Removing 10
+Try Removing 31
+Adding 31 to V2
+Try Removing 20
+Adding 20 to V2
+Removing 16
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 10
+Returning 4
+Returning 9 to V1
+Adding 6 to V2
+Removing 7
+Removing 9
+Try Removing 31
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 20 to V2
+Removing 16
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 9
+Returning 7
+Returning 6 to V1
+Returning 3 to V1
+No Solution
+
+
+1 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 5
+Try Removing 9
+Try Removing 31
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Discarding 12
+ByPassing 17
+ByPassing 14
+ByPassing 13
+Try Removing 30
+Adding 30 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 30 to V1
+ReturnByPassed( 13, 30, 18 )
+ReturnByPassed( 14, 13, 18 )
+ReturnByPassed( 17, 14, 18 )
+Returning 12
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Discarding 12
+ByPassing 16
+ByPassing 15
+Try Removing 30
+Adding 30 to V2
+ByPassing 13
+ByPassing 14
+Removing 17
+Returning 17
+ReturnByPassed( 14, 17, 30 )
+ReturnByPassed( 13, 14, 30 )
+Returning 30 to V1
+ReturnByPassed( 15, 30, 18 )
+ReturnByPassed( 16, 15, 18 )
+Returning 12
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Adding 20 to V2
+Removing 16
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Discarding 12
+Discarding 15
+ByPassing 17
+ByPassing 14
+ByPassing 13
+Try Removing 30
+Adding 30 to V2
+ByPassing 19
+Removing 7
+Returning 7
+ReturnByPassed( 19, 7, 31 )
+Returning 30 to V1
+ReturnByPassed( 13, 30, 18 )
+ReturnByPassed( 14, 13, 18 )
+ReturnByPassed( 17, 14, 18 )
+Returning 15
+Returning 12
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Adding 9 to V2
+Removing 10
+Try Removing 31
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Adding 20 to V2
+Removing 16
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 10
+Returning 9 to V1
+No Solution
+
+
+2 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 8
+Try Removing 3
+Try Removing 31
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Try Removing 9
+Adding 9 to V2
+Removing 10
+Returning 10
+Returning 9 to V1
+ReturnByPassed( 4, 9, 5 )
+Returning 0
+Returning 1
+Returning 2
+Adding 31 to V2
+Try Removing 20
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Try Removing 9
+Adding 9 to V2
+Removing 10
+Returning 10
+Returning 9 to V1
+ReturnByPassed( 4, 9, 5 )
+Returning 0
+Returning 1
+Returning 2
+Adding 20 to V2
+Removing 16
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Try Removing 9
+Adding 9 to V2
+Removing 10
+Returning 10
+Returning 9 to V1
+ReturnByPassed( 4, 9, 5 )
+Returning 0
+Returning 1
+Returning 2
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Adding 3 to V2
+Try Removing 31
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 9
+Removing 10
+Returning 10
+ReturnByPassed( 9, 10, 11 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 9
+Removing 10
+Returning 10
+ReturnByPassed( 9, 10, 11 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 20 to V2
+Removing 16
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 9
+Removing 10
+Returning 10
+ReturnByPassed( 9, 10, 11 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+Returning 3 to V1
+No Solution
+
+
+3 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 8
+Vertex to be removed: 5
+Try Removing 31
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 4
+Removing 9
+Returning 9
+ReturnByPassed( 4, 9, 11 )
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Adding 31 to V2
+Try Removing 20
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 4
+Removing 9
+Returning 9
+ReturnByPassed( 4, 9, 11 )
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Adding 20 to V2
+Removing 16
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 4
+Removing 9
+Returning 9
+ReturnByPassed( 4, 9, 11 )
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Returning 16
+Returning 20 to V1
+Returning 31 to V1
+No Solution
+
+
+4 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 11
+Try Removing 6
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 7
+ByPassing 9
+Discarding 12
+ByPassing 17
+ByPassing 14
+ByPassing 13
+Try Removing 30
+Adding 30 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 30 to V1
+ReturnByPassed( 13, 30, 18 )
+ReturnByPassed( 14, 13, 18 )
+ReturnByPassed( 17, 14, 18 )
+Returning 12
+ReturnByPassed( 9, 10, 8 )
+ReturnByPassed( 7, 19, 8 )
+Returning 4
+ReturnByPassed( 0, 4, 5 )
+ReturnByPassed( 1, 0, 5 )
+ReturnByPassed( 2, 1, 5 )
+ReturnByPassed( 3, 2, 5 )
+Adding 6 to V2
+Removing 7
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 9
+Discarding 12
+ByPassing 17
+ByPassing 14
+ByPassing 13
+Try Removing 30
+Adding 30 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 30 to V1
+ReturnByPassed( 13, 30, 18 )
+ReturnByPassed( 14, 13, 18 )
+ReturnByPassed( 17, 14, 18 )
+Returning 12
+ReturnByPassed( 9, 10, 8 )
+Returning 4
+ReturnByPassed( 0, 4, 5 )
+ReturnByPassed( 1, 0, 5 )
+ReturnByPassed( 2, 1, 5 )
+ReturnByPassed( 3, 2, 5 )
+Returning 7
+Returning 6 to V1
+No Solution
+
+
+5 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 11
+Vertex to be removed: 5
+Discarding 3
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+ByPassing 9
+Discarding 12
+ByPassing 17
+ByPassing 14
+ByPassing 13
+Try Removing 30
+Discarding 15
+ByPassing 16
+Try Removing 20
+Adding 20 to V2
+Removing 31
+Returning 31
+Returning 20 to V1
+ReturnByPassed( 16, 20, 18 )
+Returning 15
+Adding 30 to V2
+ByPassing 15
+Removing 16
+ByPassing 20
+Try Removing 31
+Adding 31 to V2
+ByPassing 19
+Removing 7
+Returning 7
+ReturnByPassed( 19, 7, 31 )
+Returning 31 to V1
+ReturnByPassed( 20, 31, 21 )
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 30 to V1
+ReturnByPassed( 13, 30, 18 )
+ReturnByPassed( 14, 13, 18 )
+ReturnByPassed( 17, 14, 18 )
+Returning 12
+ReturnByPassed( 9, 10, 8 )
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Returning 3
+No Solution
+
+
+6 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 11
+Vertex to be removed: 8
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Discarding 9
+Discarding 12
+ByPassing 17
+ByPassing 14
+ByPassing 13
+ByPassing 22
+Try Removing 25
+Adding 25 to V2
+Removing 26
+Returning 26
+Returning 25 to V1
+ReturnByPassed( 22, 25, 21 )
+ReturnByPassed( 13, 30, 18 )
+ReturnByPassed( 14, 13, 18 )
+ReturnByPassed( 17, 14, 18 )
+Returning 12
+Returning 9
+Returning 4
+ReturnByPassed( 0, 4, 5 )
+ReturnByPassed( 1, 0, 5 )
+ReturnByPassed( 2, 1, 5 )
+ReturnByPassed( 3, 2, 5 )
+No Solution
+
+
+7 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 11
+Vertex to be removed: 8
+Vertex to be removed: 5
+Discarding 3
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+Discarding 9
+Discarding 12
+ByPassing 17
+ByPassing 14
+ByPassing 13
+ByPassing 22
+Try Removing 25
+Adding 25 to V2
+Removing 26
+Returning 26
+Returning 25 to V1
+ReturnByPassed( 22, 25, 21 )
+ReturnByPassed( 13, 30, 18 )
+ReturnByPassed( 14, 13, 18 )
+ReturnByPassed( 17, 14, 18 )
+Returning 12
+Returning 9
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Returning 3
+No Solution
+
+
+8 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 18
+Try Removing 3
+Try Removing 6
+Try Removing 9
+Adding 9 to V2
+Try Removing 4
+Adding 4 to V2
+Removing 10
+Returning 10
+Returning 4 to V1
+Returning 9 to V1
+Adding 6 to V2
+Removing 7
+Try Removing 9
+Adding 9 to V2
+Removing 4
+Returning 4
+Returning 9 to V1
+Returning 7
+Returning 6 to V1
+Adding 3 to V2
+Try Removing 6
+Try Removing 9
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 9 to V2
+Removing 4
+Removing 10
+Returning 10
+Returning 4
+Returning 9 to V1
+Adding 6 to V2
+Removing 7
+Removing 9
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 9
+Returning 7
+Returning 6 to V1
+Returning 3 to V1
+No Solution
+
+
+9 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 18
+Vertex to be removed: 5
+Try Removing 9
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Discarding 12
+Discarding 17
+Discarding 14
+Discarding 13
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 13
+Returning 14
+Returning 17
+Returning 12
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Adding 9 to V2
+Removing 10
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Returning 10
+Returning 9 to V1
+No Solution
+
+
+10 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 18
+Vertex to be removed: 8
+Try Removing 3
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Try Removing 9
+Adding 9 to V2
+Removing 10
+Returning 10
+Returning 9 to V1
+ReturnByPassed( 4, 9, 5 )
+Returning 0
+Returning 1
+Returning 2
+Adding 3 to V2
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 9
+Removing 10
+Returning 10
+ReturnByPassed( 9, 10, 11 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 3 to V1
+No Solution
+
+
+11 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 18
+Vertex to be removed: 8
+Vertex to be removed: 5
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 4
+Removing 9
+Returning 9
+ReturnByPassed( 4, 9, 11 )
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+No Solution
+
+
+12 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 18
+Vertex to be removed: 11
+Try Removing 6
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 5 )
+ReturnByPassed( 1, 0, 5 )
+ReturnByPassed( 2, 1, 5 )
+ReturnByPassed( 3, 2, 5 )
+Adding 6 to V2
+Removing 7
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 5 )
+ReturnByPassed( 1, 0, 5 )
+ReturnByPassed( 2, 1, 5 )
+ReturnByPassed( 3, 2, 5 )
+Returning 7
+Returning 6 to V1
+No Solution
+
+
+13 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 18
+Vertex to be removed: 11
+Vertex to be removed: 5
+Discarding 3
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+ByPassing 9
+Discarding 12
+Discarding 17
+Discarding 14
+Discarding 13
+ByPassing 22
+ByPassing 25
+Removing 26
+Returning 26
+ReturnByPassed( 25, 26, 21 )
+ReturnByPassed( 22, 25, 21 )
+Returning 13
+Returning 14
+Returning 17
+Returning 12
+ReturnByPassed( 9, 10, 8 )
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Returning 3
+No Solution
+
+
+14 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 18
+Vertex to be removed: 11
+Vertex to be removed: 8
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 5 )
+ReturnByPassed( 1, 0, 5 )
+ReturnByPassed( 2, 1, 5 )
+ReturnByPassed( 3, 2, 5 )
+No Solution
+
+
+15 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 18
+Vertex to be removed: 11
+Vertex to be removed: 8
+Vertex to be removed: 5
+No Solution
+
+
+16 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Try Removing 3
+Try Removing 6
+Try Removing 9
+Adding 9 to V2
+Try Removing 4
+Adding 4 to V2
+Removing 10
+Returning 10
+Returning 4 to V1
+Returning 9 to V1
+Adding 6 to V2
+Removing 7
+Try Removing 9
+Adding 9 to V2
+Removing 4
+Returning 4
+Returning 9 to V1
+Returning 7
+Returning 6 to V1
+Adding 3 to V2
+Try Removing 6
+Try Removing 9
+Try Removing 31
+Adding 31 to V2
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 31 to V1
+Adding 9 to V2
+Removing 4
+Removing 10
+Returning 10
+Returning 4
+Returning 9 to V1
+Adding 6 to V2
+Removing 7
+Removing 9
+Try Removing 31
+Adding 31 to V2
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 31 to V1
+Returning 9
+Returning 7
+Returning 6 to V1
+Returning 3 to V1
+No Solution
+
+
+17 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 5
+Try Removing 9
+Try Removing 31
+Adding 31 to V2
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Discarding 12
+ByPassing 17
+ByPassing 14
+ByPassing 13
+Try Removing 30
+Adding 30 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 30 to V1
+ReturnByPassed( 13, 30, 18 )
+ReturnByPassed( 14, 13, 18 )
+ReturnByPassed( 17, 14, 18 )
+Returning 12
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Returning 31 to V1
+Adding 9 to V2
+Removing 10
+Try Removing 31
+Adding 31 to V2
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Returning 31 to V1
+Returning 10
+Returning 9 to V1
+No Solution
+
+
+18 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 8
+Try Removing 3
+Try Removing 31
+Adding 31 to V2
+Discarding 2
+Discarding 1
+Discarding 0
+ByPassing 4
+Try Removing 9
+Adding 9 to V2
+Removing 10
+Returning 10
+Returning 9 to V1
+ReturnByPassed( 4, 9, 5 )
+Returning 0
+Returning 1
+Returning 2
+Returning 31 to V1
+Adding 3 to V2
+Try Removing 31
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Adding 31 to V2
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+ByPassing 9
+Removing 10
+Returning 10
+ReturnByPassed( 9, 10, 11 )
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 31 to V1
+Returning 3 to V1
+No Solution
+
+
+19 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 8
+Vertex to be removed: 5
+Try Removing 31
+Adding 31 to V2
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+ByPassing 4
+Removing 9
+Returning 9
+ReturnByPassed( 4, 9, 11 )
+ReturnByPassed( 0, 4, 11 )
+ReturnByPassed( 1, 0, 11 )
+ReturnByPassed( 2, 1, 11 )
+ReturnByPassed( 3, 2, 11 )
+Returning 31 to V1
+No Solution
+
+
+20 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 11
+Try Removing 6
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 5 )
+ReturnByPassed( 1, 0, 5 )
+ReturnByPassed( 2, 1, 5 )
+ReturnByPassed( 3, 2, 5 )
+Adding 6 to V2
+Removing 7
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 5 )
+ReturnByPassed( 1, 0, 5 )
+ReturnByPassed( 2, 1, 5 )
+ReturnByPassed( 3, 2, 5 )
+Returning 7
+Returning 6 to V1
+No Solution
+
+
+21 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 11
+Vertex to be removed: 5
+Discarding 3
+Discarding 2
+Discarding 1
+Discarding 0
+Discarding 4
+ByPassing 9
+Discarding 12
+ByPassing 17
+ByPassing 14
+ByPassing 13
+Try Removing 30
+Adding 30 to V2
+ByPassing 15
+Removing 16
+Returning 16
+ReturnByPassed( 15, 16, 30 )
+Returning 30 to V1
+ReturnByPassed( 13, 30, 18 )
+ReturnByPassed( 14, 13, 18 )
+ReturnByPassed( 17, 14, 18 )
+Returning 12
+ReturnByPassed( 9, 10, 8 )
+Returning 4
+Returning 0
+Returning 1
+Returning 2
+Returning 3
+No Solution
+
+
+22 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 11
+Vertex to be removed: 8
+ByPassing 3
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 5 )
+ReturnByPassed( 1, 0, 5 )
+ReturnByPassed( 2, 1, 5 )
+ReturnByPassed( 3, 2, 5 )
+No Solution
+
+
+23 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 11
+Vertex to be removed: 8
+Vertex to be removed: 5
+No Solution
+
+
+24 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 18
+Try Removing 3
+Try Removing 6
+Adding 6 to V2
+Removing 7
+Returning 7
+Returning 6 to V1
+Adding 3 to V2
+Try Removing 6
+Try Removing 9
+Adding 9 to V2
+Removing 4
+Returning 4
+Returning 9 to V1
+Adding 6 to V2
+Removing 7
+Removing 9
+Returning 9
+Returning 7
+Returning 6 to V1
+Returning 3 to V1
+No Solution
+
+
+25 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 18
+Vertex to be removed: 5
+Try Removing 9
+Adding 9 to V2
+Removing 10
+Returning 10
+Returning 9 to V1
+No Solution
+
+
+26 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 18
+Vertex to be removed: 8
+Try Removing 3
+Adding 3 to V2
+ByPassing 2
+ByPassing 1
+ByPassing 0
+Removing 4
+Returning 4
+ReturnByPassed( 0, 4, 3 )
+ReturnByPassed( 1, 0, 3 )
+ReturnByPassed( 2, 1, 3 )
+Returning 3 to V1
+No Solution
+
+
+27 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 18
+Vertex to be removed: 8
+Vertex to be removed: 5
+No Solution
+
+
+28 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 18
+Vertex to be removed: 11
+Try Removing 6
+Adding 6 to V2
+Removing 7
+Returning 7
+Returning 6 to V1
+No Solution
+
+
+29 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 18
+Vertex to be removed: 11
+Vertex to be removed: 5
+No Solution
+
+
+30 iteration, F_Vertices: 5 8 11 18 21 
+Vertex to be removed: 21
+Vertex to be removed: 18
+Vertex to be removed: 11
+Vertex to be removed: 8
+No Solution
+

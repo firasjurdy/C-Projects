@@ -1,0 +1,24 @@
+Applying MaxDegreeHeuristic, FVS obtained: 3, 8, 
+
+0 iteration, F_Vertices: 3 8 
+Discarding 0
+ByPassing 1
+Try Removing 2
+Adding 2 to V2
+Removing 9
+Returning 9
+Returning 2 to V1
+ReturnByPassed( 1, 2, 8 )
+Returning 0
+No Solution
+
+
+1 iteration, F_Vertices: 3 8 
+Vertex to be removed: 3
+No Solution
+
+
+2 iteration, F_Vertices: 3 8 
+Vertex to be removed: 8
+No Solution
+
