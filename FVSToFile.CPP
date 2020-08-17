@@ -103,8 +103,7 @@ int main(){
 		   DegreeV1[ i ] = 0;
 
 	while ( !feof( ptr ) ){
-		fscanf( ptr, "%d%d", &u, &v );
-		//printf( "%d %d\n", u, v );
+		fscanf( ptr, "%d%d", &u, &v );		
 		Graph[ v ][ u ]++;
 		RGraph[ v ][ u ]++;
 		if ( feof( ptr ) )
@@ -113,9 +112,7 @@ int main(){
 
 	Degree = ( int * ) malloc ( maxnodes * sizeof ( int ) );
 	for ( i = 0; i < maxnodes; i++ )
-	   Degree[ i ] = CalculateDegree( i );
-	//PrintDegrees();
-	//FindNeighbors();
+	   Degree[ i ] = CalculateDegree( i );	
 	k = FVSMaxDegreeHeuristic();
 	Binary = ( int * ) malloc ( k * sizeof( int ) );
 	F_Vertex = ( int * ) malloc( k * sizeof( int ) );
@@ -131,68 +128,10 @@ int main(){
 			fprintf( fptr, "%d, ", i );
 		}
 	fprintf( fptr, "\n" );
-	//New Testing with iterative compression
-	/*printf( "Enter 1 to continue, 0 to exit: " );
-	scanf( "%d", &u );
-	while( u != 0 ){
-	for ( i = 0; i < maxnodes; i++ )
-		for ( j = 0; j < i; j++ ){
-			Graph[ i ][ j ] = RGraph[ i ][ j ];
-			ByPassed[ i ][ j ] = -1;
-		}
-	for( i = 0; i < maxnodes; i++ ){
-		Solution[ i ] = 0;
-		Degree[ i ] = 0;
-		DegreeV1[ i ] = 0;
-		DegreeV1InV2[ i ] = 0;
-	}
-	printf( "Enter V1 Size: " );
-	scanf( "%d", &V1_Size );
-	for( i = 0; i < V1_Size; i++ ){
-		scanf( "%d", &u );
-		DegreeV1[ u ] = 1;
-	}
-	printf( "Enter V2 Size: " );
-	scanf( "%d", &V2_Size );
-	for( i = 0; i < V2_Size; i++ ){
-		scanf( "%d", &u );
-		DegreeV1[ u ] = -1;
-	}
-	for ( i = 0; i < maxnodes; i++ )
-	   Degree[ i ] = CalculateDegree( i );
-
-	FindNeighbors();
-	printf( "Enter k value: " );
-	scanf( "%d", &k );
-	printf( "Do you want to remove any additional vertices: " );
-	scanf( "%d", &j );
-	for( i = 0; i < j; i++ ){
-		printf( "Vertex to be removed: " );
-		scanf( "%d", &u );
-		Remove( u );
-		Solution[ u ] = 1;
-	}
-	if( FeedBack( V1_Size, V2_Size, k - j ) )
-		printf( "Solution exists\n" );
-	else printf( "No Solution\n" );
-
-	for( i = 0; i < maxnodes; i++ )
-		if( Solution[ i ] == 1 )
-			printf( "%d, ", i );
-	//PrintDegrees();
-	//PrintGraph();
-	printf( "Enter 1 to continue, 0 to exit: " );
-	scanf( "%d", &u );
-	}*/
-
-
-	//Final Testing
+	
 
 	for( j = 0; j < pow( 2, k ) - 1; j++ ){
-		/*if( j <= -1  )
-			continue;
-		else if( j > 0 )
-			break;*/
+		
 		InitializeGraph();
 		V1_Size = 0;
 		V2_Size = 0;
@@ -226,236 +165,6 @@ int main(){
 
 			FindNeighbors();
 
-
-
-			/*Remove( 1 );
-			Solution[ 1 ] = 1;
-			Remove( 6 );
-			Solution[ 6 ] = 1;
-			Remove( 8 );
-			Solution[ 8 ] = 1;
-			Remove( 10 );
-			Solution[ 10 ] = 1;
-			Remove( 13 );
-			Solution[ 13 ] = 1;
-			Remove( 16 );
-			Solution[ 16 ] = 1;
-			Remove( 21 );
-			Solution[ 21 ] = 1;
-			Remove( 43 );
-			Solution[ 43 ] = 1;
-			Remove( 44 );
-			Solution[ 44 ] = 1;
-			Initialize();
-			ConnectedComponents();
-			if( result == 1 )
-				printf( "Graph is acyclic" );
-			else printf( "Graph contains cycles" );*/
-			/*//Try Removing 8
-			Remove( 8 );
-			Solution[ 8 ] = 1;
-			//Try Removing 11
-			Remove( 11 );
-			Solution[ 11 ] = 1;
-			//ByPassing 2
-			ByPass( 2, &a, &b );
-			Solution[ 2 ] = -2;
-			//ByPassing 1
-			ByPass( 1, &a, &b );
-			Solution[ 1 ] = -2;
-			//ByPassing 0
-			ByPass( 0, &a, &b );
-			Solution[ 0 ] = -2;
-			//Try Removing 4
-			Remove( 4 );
-			Solution[ 4 ] = 1;
-			//Adding 4 to V2
-			ReturnAndPlaceInV2( 4 );
-			Solution[ 4 ] = 0;
-			DegreeV1[ 4 ] = -1;
-			DegreeV1InV2[ 4 ] = 0;
-			//Removing 5
-			Remove( 5 );
-			Solution[ 5 ] = 1;
-			//Returning 5
-			Return( 5 );
-			Solution[ 5 ] = 0;
-			//Returning 4 to V1
-			ReturnAndPlaceInV1( 4 );
-			ReturnByPassed( 0, 4, 3 );
-			Solution[ 0 ] = 0;
-			ReturnByPassed( 1, 0, 3 );
-			Solution[ 1 ] = 0;
-			ReturnByPassed( 2, 1, 3 );
-			Solution[ 2 ] = 0;
-			//Adding 11 to V2
-			ReturnAndPlaceInV2( 11 );
-			Solution[ 11 ] = 0;
-			DegreeV1[ 11 ] = -1;
-			DegreeV1InV2[ 11 ] = 0;
-			//Removing 10
-			Remove( 10 );
-			Solution[ 10 ] = 1;
-			//ByPassing 2
-			ByPass( 2, &a, &b );
-			Solution[ 2 ] = -2;
-			//ByPassing 1
-			ByPass( 1, &a, &b );
-			Solution[ 1 ] = -2;
-			//ByPassing 0
-			ByPass( 0, &a, &b );
-			Solution[ 0 ] = -2;
-			//Removing 4
-			Remove( 4 );
-			Solution[ 4 ] = 1;
-			//Returning 4
-			Return( 4 );
-			Solution[ 4 ] = 0;
-			ReturnByPassed( 0, 4, 3 );
-			Solution[ 0 ] = 0;
-			ReturnByPassed( 1, 0, 3 );
-			Solution[ 1 ] = 0;
-			ReturnByPassed( 2, 1, 3 );
-			Solution[ 2 ] = 0;
-			//Returning 10
-			Return( 10 );
-			Solution[ 10 ] = 0;
-			//Returning 11 to V1
-			ReturnAndPlaceInV1( 11 );
-			//Adding 8 to V2
-			ReturnAndPlaceInV2( 8 );
-			Solution[ 8 ] = 0;
-			DegreeV1[ 8 ] = -1;
-			DegreeV1InV2[ 8 ] = 0;
-			//Try Removing 11
-			Remove( 11 );
-			Solution[ 11 ] = 1;
-			//ByPassing 2
-			ByPass( 2, &a, &b );
-			Solution[ 2 ] = -2;
-			//ByPassing 1
-			ByPass( 1, &a, &b );
-			Solution[ 1 ] = -2;
-			//ByPassing 0
-			ByPass( 0, &a, &b );
-			Solution[ 0 ] = -2;
-			//Try Removing 4
-			Remove( 4 );
-			Solution[ 4 ] = 1;
-			PrintDegrees();*/
-			/*//Discard 0
-			Remove( 0 );
-			Solution[ 0 ] = -1;
-			//ByPass 1
-			ByPass( 1, &a, &b );
-			Solution[ 1 ] = -2;
-			//Try Remove 2
-			Remove( 2 );
-			Solution[ 2 ] = 1;
-			//Place 2 in V2
-			ReturnAndPlaceInV2( 2 );
-			Solution[ 2 ] = 0;
-			DegreeV1[ 2 ] = -1;
-			DegreeV1InV2[ 2 ] = 0;
-			//Remove 9
-			Remove( 9 );
-			Solution[ 9 ] = 1;
-			//Return 9
-			Return( 9 );
-			Solution[ 9 ] = 0;
-			//Place 2 in V1
-			ReturnAndPlaceInV1( 2 );
-			//Return By Passed 1
-			ReturnByPassed( 1, a, b );
-			Solution[ 1 ] = 0;
-			//Return Discarded 0
-			Return( 0 );
-			Solution[ 0 ] = 0;
-			PrintDegrees();
-			Initialize();
-			ConnectedComponents();
-			if( result == 1 )
-				printf( "Graph is acyclic" );
-			else printf( "Graph contains cycles" );*/
-			/*Remove( 5 );
-			Solution[ 5 ] = 1;
-			Remove( 8 );
-			Solution[ 8 ] = 1;
-			Remove( 11 );
-			Solution[ 11 ] = 1;
-			ByPass( 2, &a, &b );
-			Solution[ 2 ] = -2;
-			ByPass( 1, &a, &b );
-			Solution[ 1 ] = -2;
-			ByPass( 0, &a, &b );
-			Solution[ 0 ] = -2;
-			Remove( 4 );
-			Solution[ 4 ] = 1;
-			ReturnAndPlaceInV2( 4 );
-			Solution[ 4 ] = 0;
-			DegreeV1[ 4 ] = -1;
-			DegreeV1InV2[ 4 ] = 0;
-			ByPass( 7, &a, &b );
-			Solution[ 7 ] = -2;
-			ByPass( 13, &a, &b );
-			Solution[ 13 ] = -2;
-			ByPass( 14, &a, &b );
-			Solution[ 14 ] = -2;
-			ByPass( 15, &a, &b );
-			Solution[ 15 ] = -2;
-			ByPass( 16, &a, &b );
-			Solution[ 16 ] = -2;
-			Remove( 20 );
-			Solution[ 20 ] = 1;
-			ReturnAndPlaceInV2( 20 );
-			Solution[ 20 ] = 0;
-			DegreeV1[ 20 ] = -1;
-			DegreeV1InV2[ 20 ] = 0;
-			ByPass( 19, &a, &b );
-			Solution[ 19 ] = -2;
-			Remove( 31 );
-			Solution[ 31 ] = 1;
-			ReturnAndPlaceInV2( 31 );
-			Solution[ 31 ] = 0;
-			DegreeV1[ 31 ] = -1;
-			DegreeV1InV2[ 31 ] = 0;
-			ByPass( 22, &a, &b );
-			Solution[ 22 ] = -2;
-			ByPass( 25, &a, &b );
-			Solution[ 25 ] = -2;
-			Remove( 26 );
-			Solution[ 26 ] = 1;
-			Return( 26 );
-			Solution[ 26 ] = 0;
-			printf( "Degree[ 26 ] = %d\n", Degree[ 26 ] );
-			ReturnByPassed( 25, a, b );
-			Solution[ 25 ] = 0;
-			printf( "Degree[ 25 ] = %d\n", Degree[ 25 ] );
-			printf( "Degree[ 26 ] = %d\n", Degree[ 26 ] );
-			printf( "Degree[ 21 ] = %d\n", Degree[ 21 ] );
-			ReturnByPassed( 22, 25, 21 );
-			Solution[ 22 ] = 0;
-			printf( "Degree[ 22 ] = %d\n", Degree[ 22 ] );
-			printf( "Degree[ 25 ] = %d\n", Degree[ 25 ] );
-			printf( "Degree[ 21 ] = %d\n", Degree[ 21 ] );
-			for( i = 0; i < 31; i++ )
-				if( Graph[ 31 ][ i ] >= 1 )
-					if( DegreeV1[ i ] == -1 )
-						DegreeV1InV2[ 31 ] += Graph[ 31 ][ i ];
-			for( i = 31 + 1; i < maxnodes; i++ )
-				if( Graph[ i ][ 31 ] >= 1 )
-					if( DegreeV1[ i ] == -1 )
-						DegreeV1InV2[ 31 ] += Graph[ i ][ 31 ];
-			DegreeV1[ 31 ] = Degree[ 31 ] - DegreeV1InV2[ 31 ];
-			ReturnByPassed( 19, 31, 6 );
-			Solution[ 19 ] = 0;
-			PrintDegrees();*/
-			/*Initialize();
-			ConnectedComponents();
-			if( result == 1 )
-				printf( "Graph is acyclic" );
-			else printf( "Graph contains cycles" );*/
-
 			if( FeedBack( V1_Size, V2_Size, k - v - 1 ) ){
 				fprintf( fptr, "Solution exists\n" );
 				k = 0;
@@ -474,19 +183,9 @@ int main(){
 					Solution[ F_Vertex[ i ] ] = 1;
 			}
 		}
-		fprintf( fptr, "\n" );
-		//PrintDegrees();
+		fprintf( fptr, "\n" );		
 	}
 
-
-
-	/*Testing IntToBinary()
-	k = 4;
-	for( i = 0; i < pow( 2, k ); i++ ){
-		printf( "\n%d 1's: ", IntToBinary( Binary, i, k ) );
-		for( j = k - 1; j >= 0; j-- )
-			printf( "%d", Binary[ j ] );
-	}*/
   }
   getch();
 
@@ -503,8 +202,7 @@ int Acyclic(){
    while ( j < maxnodes ){
 		  if ( position < j ){
 			 if( Graph[ j ][ position ] == 1 && !MarkEdge[ j ][ position ] ){
-				 if( !visited[ j ] ){
-					//printf( "%d ---> ", j );
+				 if( !visited[ j ] ){				
 					visited[ j ] = 1;
 					MarkEdge[ j ][ position ] = 1;
 					Oldposition = position;
@@ -524,8 +222,7 @@ int Acyclic(){
 		  }
 		  else if( position > j ){
 				if ( Graph[ position ][ j ] == 1 && !MarkEdge[ position ][ j ] ){
-					if( !visited[ j ] ){
-						//printf( "%d ---> ", j );
+					if( !visited[ j ] ){				
 						visited[ j ] = 1;
 						MarkEdge[ position ][ j ] = 1;
 						Oldposition = position;
@@ -554,8 +251,7 @@ int ConnectedComponents(){
 		if ( !visited[ i ] ){
 			position = i;
 			visited[ position ] = 1;
-			count++;
-			//printf( "\n%d ---> ", position );
+			count++;		
 			result = Acyclic();
 			components++;
 			if( result == 0 )
@@ -578,8 +274,7 @@ int BelongToSameTree( int a, int b, int V2_Size ){
 		  if ( position < j ){
 			 if( Graph[ j ][ position ] >= 1 ){
 				if( j == b )
-					return 1;
-				//printf( "%d ---> ", j );
+					return 1;			
 				visited[ j ] = 1;
 				Oldposition = position;
 				position = j;
@@ -591,8 +286,7 @@ int BelongToSameTree( int a, int b, int V2_Size ){
 		  }
 		  else if( position > j && Graph[ position ][ j ] >= 1 ){
 				if( j == b )
-					return 1;
-			    //printf( "%d ---> ", j );
+					return 1;		   
 				visited[ j ] = 1;
 				Oldposition = position;
 				position = j;
@@ -666,58 +360,44 @@ void ByPass( int i, int *x, int *y ){
 	if ( a > b ){
 		Graph[ a ][ b ] += 1;
 		if( i > a ){
-			ByPassed[ i ][ a ] = b;
-			//printf( "ByPassed[ %d ][ %d ] = %d\n", i, a, b );
+			ByPassed[ i ][ a ] = b;		
 			if( i > b ){
-				ByPassed[ i ][ b ] = a;
-				//printf( "ByPassed[ %d ][ %d ] = %d\n", i, b, a );
+				ByPassed[ i ][ b ] = a;			
 			}
 			else {
-				ByPassed[ b ][ i ] = a;
-				//printf( "ByPassed[ %d ][ %d ] = %d\n", b, i, a );
+				ByPassed[ b ][ i ] = a;			
 			}
 		}
 		else {
-			ByPassed[ a ][ i ] = b;
-			//printf( "ByPassed[ %d ][ %d ] = %d\n", a, i, b );
+			ByPassed[ a ][ i ] = b;		
 			if( i > b ){
-				ByPassed[ i ][ b ] = a;
-				//printf( "ByPassed[ %d ][ %d ] = %d\n", i, b, a );
+				ByPassed[ i ][ b ] = a;			
 			}
 			else {
-				ByPassed[ b ][ i ] = a;
-				//printf( "ByPassed[ %d ][ %d ] = %d\n", b, i, a );
+				ByPassed[ b ][ i ] = a;			
 			}
-		}
-		//printf( "Graph[ %d ][ %d ] = %d\n", a, b, Graph[ a ][ b ] );
+		}	
 	}
 	else{
 		if( i > b ){
-			ByPassed[ i ][ b ] = a;
-			//printf( "ByPassed[ %d ][ %d ] = %d\n", i, b, a );
+			ByPassed[ i ][ b ] = a;		
 			if( i > a ){
-				ByPassed[ i ][ a ] = b;
-				//printf( "ByPassed[ %d ][ %d ] = %d\n", i, a, b );
+				ByPassed[ i ][ a ] = b;			
 			}
 			else {
-				ByPassed[ a ][ i ] = b;
-				//printf( "ByPassed[ %d ][ %d ] = %d\n", a, i, b );
+				ByPassed[ a ][ i ] = b;			
 			}
 		}
 		else {
-			ByPassed[ b ][ i ] = a;
-			//printf( "ByPassed[ %d ][ %d ] = %d\n", b, i, a );
+			ByPassed[ b ][ i ] = a;		
 			if( i > a ){
-				ByPassed[ i ][ a ] = b;
-				//printf( "ByPassed[ %d ][ %d ] = %d\n", i, a, b );
+				ByPassed[ i ][ a ] = b;			
 			}
 			else {
-				ByPassed[ a ][ i ] = b;
-				//printf( "ByPassed[ %d ][ %d ] = %d\n", a, i, b );
+				ByPassed[ a ][ i ] = b;			
 			}
 		}
-		Graph[ b ][ a ] += 1;
-		//printf( "Graph[ %d ][ %d ] = %d\n", b, a, Graph[ b ][ a ] );
+		Graph[ b ][ a ] += 1;	
 	}
 
 	Degree[ i ] = 0;
@@ -741,8 +421,7 @@ void ByPass( int i, int *x, int *y ){
 void Remove( int i ) {
    int j = 0;
    for ( j = 0; j < i; j++ )
-      if( Graph[ i ][ j ] >= 1 ) {
-		//printf( "Cutting edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, j, i, j, Graph[ i ][ j ] );
+      if( Graph[ i ][ j ] >= 1 ) {	
 		Degree[ j ] -= Graph[ i ][ j ];
 		if( DegreeV1[ j ] > 0 )
 			DegreeV1[ j ] -= Graph[ i ][ j ];
@@ -750,8 +429,7 @@ void Remove( int i ) {
       }
    while ( j < maxnodes - 1 ){
 		j++;
-		if ( Graph[ j ][ i ] >= 1 ) {
-			//printf( "Cutting edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", j, i, j, i, Graph[ j ][ i ] );
+		if ( Graph[ j ][ i ] >= 1 ) {		
 			Degree[ j ] -= Graph[ j ][ i ];
 			if( DegreeV1[ j ] > 0 )
 				DegreeV1[ j ] -= Graph[ j ][ i ];
@@ -791,12 +469,10 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 			if( DegreeV1InV2[ i ] >= 2 ){
 				for ( j = 0; j < maxnodes; j++ ){
 					if ( DegreeV1[ j ] == -1 && j > i && Graph[ j ][ i ] == 1 ){
-						a = j;
-						//printf( "a: %d\n", a );
+						a = j;					
 						for ( m = j + 1; m < maxnodes; m++ )
 							if ( DegreeV1[ m ] == -1 && m > i && Graph[ m ][ i ] == 1 ){
-								b = m;
-								//printf( "b: %d\n", b );
+								b = m;							
 								for ( h = 0; h < maxnodes; h++ )
 									visited[ h ] = 0;
 								position = a;
@@ -805,8 +481,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 								if( BelongToSameTree( a, b, V2_Size ) ){
 									fprintf( fptr, "Removing %d\n", i );
 									Remove( i );
-									Solution[ i ] = 1;
-									//PrintDegrees();
+									Solution[ i ] = 1;								
 									Answer = FeedBack( V1_Size, V2_Size, k - 1 );
 									if( Answer == 0 ){
 										fprintf( fptr, "Returning %d\n", i );
@@ -818,8 +493,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 								}				
 							}
 							else if ( DegreeV1[ m ] == -1 && m < i && Graph[ i ][ m ] == 1 ){
-								b = m;
-								//printf( "b: %d\n", b );
+								b = m;							
 								for ( h = 0; h < maxnodes; h++ )
 									visited[ h ] = 0;
 								position = a;
@@ -828,8 +502,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 								if( BelongToSameTree( a, b, V2_Size ) ){
 									fprintf( fptr, "Removing %d\n", i );
 									Remove( i );
-									Solution[ i ] = 1;
-									//PrintDegrees();
+									Solution[ i ] = 1;								
 									Answer = FeedBack( V1_Size, V2_Size, k - 1 );
 									if( Answer == 0 ){
 										fprintf( fptr, "Returning %d\n", i );
@@ -843,12 +516,10 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 							}
 					}
 					else if ( DegreeV1[ j ] == -1 && j < i && Graph[ i ][ j ] == 1 ){
-							a = j;
-							//printf( "a: %d\n", a );
+							a = j;						
 							for ( m = j + 1; m < maxnodes; m++ )
 								if ( DegreeV1[ m ] == -1 && m > i && Graph[ m ][ i ] == 1 ){
-									b = m;
-									//printf( "b: %d\n", b );
+									b = m;							
 									for ( h = 0; h < maxnodes; h++ )
 										visited[ h ] = 0;
 									position = a;
@@ -857,8 +528,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 									if( BelongToSameTree( a, b, V2_Size ) ){
 										fprintf( fptr, "Removing %d\n", i );
 										Remove( i );
-										Solution[ i ] = 1;
-										//PrintDegrees();
+										Solution[ i ] = 1;								
 										Answer = FeedBack( V1_Size, V2_Size, k - 1 );
 										if( Answer == 0 ){
 											fprintf( fptr, "Returning %d\n", i );
@@ -871,8 +541,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 								
 								}
 								else if ( DegreeV1[ m ] == -1 && m < i && Graph[ i ][ m ] == 1 ){
-									b = m;
-									//printf( "b: %d\n", b );
+									b = m;							
 									for ( h = 0; h < maxnodes; h++ )
 										visited[ h ] = 0;
 									position = a;
@@ -881,8 +550,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 									if( BelongToSameTree( a, b, V2_Size ) ){
 										fprintf( fptr, "Removing %d\n", i );
 										Remove( i );
-										Solution[ i ] = 1;
-										//PrintDegrees();
+										Solution[ i ] = 1;								
 										Answer = FeedBack( V1_Size, V2_Size, k - 1 );
 										if( Answer == 0 ){
 											fprintf( fptr, "Returning %d\n", i );
@@ -898,8 +566,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 					else if ( DegreeV1[ j ] == -1 && j < i && Graph[ i ][ j ] > 1 ){
 						fprintf( fptr, "Removing %d\n", i );
 						Remove( i );
-						Solution[ i ] = 1;
-						//PrintDegrees();
+						Solution[ i ] = 1;					
 						Answer = FeedBack( V1_Size, V2_Size, k - 1 );
 						if( Answer == 0 ){
 							fprintf( fptr, "Returning %d\n", i );
@@ -912,8 +579,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 					else if ( DegreeV1[ j ] == -1 && j > i && Graph[ j ][ i ] > 1 ){
 						fprintf( fptr, "Removing %d\n", i );
 						Remove( i );
-						Solution[ i ] = 1;
-						//PrintDegrees();
+						Solution[ i ] = 1;					
 						Answer = FeedBack( V1_Size, V2_Size, k - 1 );
 						if( Answer == 0 ){
 							fprintf( fptr, "Returning %d\n", i );
@@ -926,8 +592,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 				}
 				fprintf( fptr, "Try Removing %d\n", i );
 				Remove( i );
-				Solution[ i ] = 1;
-				//PrintDegrees();
+				Solution[ i ] = 1;			
 				Answer = FeedBack( V1_Size, V2_Size, k - 1 );
 				if( Answer == 1 )
 					return 1;
@@ -953,8 +618,7 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 			if( Degree[ i ] == 1 ){
 				fprintf( fptr, "Discarding %d\n", i );
 				Remove( i );
-				Solution[ i ] = -1;
-				//PrintDegrees();
+				Solution[ i ] = -1;		
 				Answer = FeedBack( V1_Size, V2_Size, k );
 				if( Answer == 1 )
 					return 1;
@@ -966,14 +630,11 @@ int FeedBack( int V1_Size, int V2_Size, int k ){
 			if ( Degree[ i ] > 1 ){
 				fprintf( fptr, "ByPassing %d\n", i );
 				ByPass( i, &a, &b );
-				Solution[ i ] = -2;
-				//printf( "After ByPassing: a=%d, b=%d\n", a, b );
-				//PrintDegrees();
+				Solution[ i ] = -2;			
 				Answer = FeedBack( V1_Size, V2_Size, k );
 				if( Answer == 1 )
 					return 1;
-				ReturnByPassed( i, a, b );
-				//printf( "Must Cut Edge <%d,%d>\n", a, b );
+				ReturnByPassed( i, a, b );			
 				Solution[ i ] = 0;
 				return 0;
 			}
@@ -1007,35 +668,30 @@ void ReturnAndPlaceInV2( int i ){
       if( RGraph[ i ][ j ] >= 1 ) {
 		  if( DegreeV1[ j ] >= 0 ){ 
 			  if( Solution[ j ] == 0 ){
-				  Graph[ i ][ j ] += RGraph[ i ][ j ];
-				  //printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, j, i, j, Graph[ i ][ j ] );
+				  Graph[ i ][ j ] += RGraph[ i ][ j ];			  
 				  Degree[ j ] += RGraph[ i ][ j ];
 				  Degree[ i ] += RGraph[ i ][ j ];
 				  DegreeV1InV2[ j ] += RGraph[ i ][ j ];
 			  }
 			  else if ( Solution[ j ] == -2 ){
-					//printf( "%d was ByPassed\n", j );
-				  
+				
 					if( ByPassed[ i ][ j ] != -1 )
 							  v = ByPassed[ i ][ j ];
 							 
 					if( i > v ){
-						Graph[ i ][ v ]++;
-						//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, v, i, v, Graph[ i ][ v ] );
+						Graph[ i ][ v ]++;				
 						Degree[ i ]++;
 						Degree[ v ]++;
 					}
 					else if( i < v ){
-						Graph[ v ][ i ]++;
-						//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", v, i, v, i, Graph[ v ][ i ] );
+						Graph[ v ][ i ]++;					
 						Degree[ i ]++;
 						Degree[ v ]++;
 					}
 			  }
 		  }
 		  else if( DegreeV1[ j ] == -1 ){
-			  Graph[ i ][ j ] += RGraph[ i ][ j ];
-			  //printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, j, i, j, Graph[ i ][ j ] );
+			  Graph[ i ][ j ] += RGraph[ i ][ j ];		  
 			  Degree[ j ] += RGraph[ i ][ j ];
 			  Degree[ i ] += RGraph[ i ][ j ];
 		  }
@@ -1045,36 +701,30 @@ void ReturnAndPlaceInV2( int i ){
 		if ( RGraph[ j ][ i ] >= 1 ) {
 			if( DegreeV1[ j ] >= 0 ){
 				if( Solution[ j ] == 0 ){
-					Graph[ j ][ i ] += RGraph[ j ][ i ];
-					//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", j, i, j, i, Graph[ j ][ i ] );
+					Graph[ j ][ i ] += RGraph[ j ][ i ];				
 					Degree[ j ] += RGraph[ j ][ i ];
 					Degree[ i ] += RGraph[ j ][ i ];
 					DegreeV1InV2[ j ] += RGraph[ j ][ i ];
 				}
 				else if ( Solution[ j ] == -2 ){
-					//printf( "%d was ByPassed\n", j );
-		
+					
 					if( ByPassed[ j ][ i ] != -1 )
 						v = ByPassed[ j ][ i ];
 				
-			
 				  if( i > v ){
-					  Graph[ i ][ v ]++;
-					  //printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, v, i, v, Graph[ i ][ v ] );
+					  Graph[ i ][ v ]++;				  
 					  Degree[ i ]++;
 					  Degree[ v ]++;
 				  }
 				  else if ( i < v ){
-						Graph[ v ][ i ]++;
-						//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", v, i, v, i, Graph[ v ][ i ] );
+						Graph[ v ][ i ]++;					
 						Degree[ i ]++;
 						Degree[ v ]++;
 				  }
 			  }
 			}
 			else if( DegreeV1[ j ] == -1 ){
-				Graph[ j ][ i ] += RGraph[ j ][ i ];
-				//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", j, i, j, i, Graph[ j ][ i ] );
+				Graph[ j ][ i ] += RGraph[ j ][ i ];			
 				Degree[ j ] += RGraph[ j ][ i ];
 				Degree[ i ] += RGraph[ j ][ i ];
 			}
@@ -1088,38 +738,33 @@ void Return( int i ) {
       if( RGraph[ i ][ j ] >= 1 ) {
 		  if( DegreeV1[ j ] >= 0 ){
 			  if( Solution[ j ] == 0 ){
-				  Graph[ i ][ j ] += RGraph[ i ][ j ];
-				  //printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, j, i, j, Graph[ i ][ j ] );
+				  Graph[ i ][ j ] += RGraph[ i ][ j ];			  
 				  Degree[ j ] += RGraph[ i ][ j ];
 				  Degree[ i ] += RGraph[ i ][ j ];
 				  DegreeV1[ j ] += RGraph[ i ][ j ];
 				  DegreeV1[ i ] += RGraph[ i ][ j ];
 			  }
 			  else if ( Solution[ j ] == -2 ){
-				  //printf( "%d was ByPassed\n", j );
 				  
-						  if( ByPassed[ i ][ j ] != -1 )
-							  v = ByPassed[ i ][ j ];
+					if( ByPassed[ i ][ j ] != -1 )
+						v = ByPassed[ i ][ j ];
 					
-				  if( i > v ){
-					  Graph[ i ][ v ]++;
-					  //printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, v, i, v, Graph[ i ][ v ] );
+					if( i > v ){
+					  Graph[ i ][ v ]++;				  
 					  Degree[ i ]++;
 					  Degree[ v ]++;
 					  DegreeV1InV2[ i ]++;
-				  }
-				  else if( i < v ){
-						Graph[ v ][ i ]++;
-						//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", v, i, v, i, Graph[ v ][ i ] );
+					}
+					else if( i < v ){
+						Graph[ v ][ i ]++;					
 						Degree[ i ]++;
 						Degree[ v ]++;
 						DegreeV1InV2[ i ]++;
-				  }
+					}
 			  }
 		  }
 		  else if ( DegreeV1[ j ] == -1 ){
-			  Graph[ i ][ j ] += RGraph[ i ][ j ];
-			  //printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, j, i, j, Graph[ i ][ j ] );
+			  Graph[ i ][ j ] += RGraph[ i ][ j ];		  
 			  Degree[ j ] += RGraph[ i ][ j ];
 			  Degree[ i ] += RGraph[ i ][ j ];
 			  DegreeV1InV2[ i ] += RGraph[ i ][ j ];
@@ -1130,39 +775,34 @@ void Return( int i ) {
 		if ( RGraph[ j ][ i ] >= 1 ) {
 			if( DegreeV1[ j ] >= 0 ){
 				if( Solution[ j ] == 0 ){
-					Graph[ j ][ i ] += RGraph[ j ][ i ];
-					//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", j, i, j, i, Graph[ j ][ i ] );
+					Graph[ j ][ i ] += RGraph[ j ][ i ];			
 					Degree[ j ] += RGraph[ j ][ i ];
 					Degree[ i ] += RGraph[ j ][ i ];
 					DegreeV1[ j ] += RGraph[ j ][ i ];
 					DegreeV1[ i ] += RGraph[ j ][ i ];
 				}
 				else if ( Solution[ j ] == -2 ){
-					//printf( "%d was ByPassed\n", j );
-
-						  if( ByPassed[ j ][ i ] != -1 )
+					
+						if( ByPassed[ j ][ i ] != -1 )
 							  v = ByPassed[ j ][ i ];
 					
-				  if( i > v ){
-					  Graph[ i ][ v ]++;
-					  //printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, v, i, v, Graph[ i ][ v ] );
-					  Degree[ i ]++;
-					  Degree[ v ]++;
-					  DegreeV1InV2[ i ]++;
-				  }
-				  else if( i < v ){
-						Graph[ v ][ i ]++;
-						//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", v, i, v, i, Graph[ v ][ i ] );
-						Degree[ i ]++;
-						Degree[ v ]++;
-						DegreeV1InV2[ i ]++;
-				  }
-			  }
+						if( i > v ){
+						  Graph[ i ][ v ]++; 
+						  Degree[ i ]++;
+						  Degree[ v ]++;
+						  DegreeV1InV2[ i ]++;
+						}
+						else if( i < v ){
+							Graph[ v ][ i ]++;					
+							Degree[ i ]++;
+							Degree[ v ]++;
+							DegreeV1InV2[ i ]++;
+						}
+				}
 
 			}
 			else if( DegreeV1[ j ] == -1 ){
-				Graph[ j ][ i ] += RGraph[ j ][ i ];
-				//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", j, i, j, i, Graph[ j ][ i ] );
+				Graph[ j ][ i ] += RGraph[ j ][ i ];			
 				Degree[ j ] += RGraph[ j ][ i ];
 				Degree[ i ] += RGraph[ j ][ i ];
 				DegreeV1InV2[ i ] += RGraph[ j ][ i ];
@@ -1178,8 +818,7 @@ void ReturnByPassed( int i, int a, int b ){
 			if( a > b )
 				Graph[ a ][ b ]--;
 			else Graph[ b ][ a ]--;
-			Graph[ i ][ a ]++;
-			//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, a, i, a, Graph[ i ][ a ] );
+			Graph[ i ][ a ]++;		
 			Degree[ i ]++;
 			DegreeV1[ i ]++;
 		}
@@ -1192,8 +831,7 @@ void ReturnByPassed( int i, int a, int b ){
 		if( a > b )
 			Graph[ a ][ b ]--;
 		else Graph[ b ][ a ]--;
-		Graph[ a ][ i ]++;
-		//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", a, i, a, i, Graph[ a ][ i ] );
+		Graph[ a ][ i ]++;	
 		Degree[ i ]++;
 		DegreeV1[ i ]++;
 		}
@@ -1203,21 +841,16 @@ void ReturnByPassed( int i, int a, int b ){
 	}
 	
 	if( i > b ){
-		Graph[ i ][ b ]++;
-		//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", i, b, i, b, Graph[ i ][ b ] );
+		Graph[ i ][ b ]++;	
 		Degree[ i ]++;
 	}
 	else {
-		Graph[ b ][ i ]++;
-		//printf( "Returning edge <%d,%d>, Graph[ %d ][ %d ] = %d\n", b, i, b, i, Graph[ b ][ i ] );
+		Graph[ b ][ i ]++;	
 		Degree[ i ]++;
 	}
 	DegreeV1InV2[ a ]--;
 	DegreeV1[ a ]++;
 	DegreeV1InV2[ i ]++;
-	//if( a > b )
-		//printf( "Graph[ %d ][ %d ] = %d\n", a, b, Graph[ a ][ b ] );
-	//else printf( "Graph[ %d ][ %d ] = %d\n", b, a, Graph[ b ][ a ] );
 }
 
 void PrintGraph(){
